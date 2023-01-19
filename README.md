@@ -5,7 +5,8 @@ Just like medical insurance, there is vehicle insurance where every year custome
 Building a model to predict whether a customer would be interested in vehicle insurance is extremely helpful for the company because it can then accordingly plan its communication strategy to reach out to those customers and optimise its business model and revenue.
 Now, in order to predict, whether the customer would be interested in Vehicle insurance, you have information about demographics (gender, age, region code), Vehicles(Vehicle age, Damage), Policy (Premium, sourcing channel),etc.
 
-CONCLUSION
+## CONCLUSION
+
 During our analysis we performed EDA on our data. We have analyzed both numerical as well as categorical columns / features. After performing EDA we got to know that 'Annual_Premium' column have outliers, so, in feature engineering we removed the outliers with the help of IQR method. Also out output column had imbalanced data. So to tackle that thing we performed data-resampling using SMOTE technique. Next we implemented 4 Machine Learning Models and also performed hyperparameter tuning and cross validation for each method. Following are the results of the models :-
 - There was overfitting issues while using Random forest method. We tackled that with hyperparameter tuning.
 - Annual Premium column has the highest importance among all the features.
